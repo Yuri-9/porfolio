@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="scss/material-design-iconic-font.min.css">
+   <link rel="stylesheet" href="scss/style.css">
+   <title>Portfolio</title>
+</head>
+<body>
+<header class="header">
+   <div class="bg-header"></div>
+   <div class="wrapper">
+      <div class="row">
+         <div class="wrap-img">
+            <img src="images/face.png" alt="face">
+         </div>
+         <div class="description">
+            <ul class="network-list">
+            <li class="network-list__link">
+              <a href="https://github.com/Yuri-9">
+                <i class="zmdi zmdi-github"></i>
+              </a>
+            </li>
+               <li class="network-list__link">
+                 <a href="mailto:vashkevichyp@gmail.com">
+                   <img src="images/gmail.svg" alt="gmail">
+                  </a>
+                </li>
+            </ul>
+            <h1 class="name">
+              Yuri Vashkevich
+            </h1>
+         </div>
+      </div>
+   </div>
+</header>
+<div class="wrapper">
+   <main class="content">
+      <section class="information">
+         <div class="more-inf">
+            <div class="btn-show">Education<i class="zmdi zmdi-chevron-down"></i></div>
+            <div class="inf-list">
+               <p class="inf-list__name"><a href="https://rs.school/">RSSchool</a> course «JavaScript/Front-end»</p>
+               <a href="https://app.rs.school/certificate/7kgaun5v">Certicate of Completion</a>
+               <p class="inf-list__dop">2019- 2020</p>
+               <p class="inf-list__name">BNTU (Belarusian National Technical University), energy faculty</p>
+               <p class="inf-list__dop">2003 - 2008</p>
+            </div>
+         </div>
+         <div class="more-inf">
+            <div class="btn-show">Skills <i class="zmdi zmdi-chevron-down"></i></div>
+            <div class="inf-list">
+               <p class="inf-list__name">JavaScript</p>
+               <p class="inf-list__name">HTML5</p>
+               <p class="inf-list__name">CSS3</p>
+               <p class="inf-list__name">SCSS</p>
+               <p class="inf-list__name">git</p>
+            </div>
+         </div>
+         <div class="more-inf">
+            <div class="btn-show">Contact <i class="zmdi zmdi-chevron-down"></i></div>
+            <div class="inf-list">
+               <p class="inf-list__name">phone: <a href="tel:+375256026901">+375 25 602-69-01</a></p>
+               <p class="inf-list__name">email: <a href="mailto:vashkevichyp@gmail.com">vashkevichyp@gmail.com</a></p>
+               <p class="inf-list__name">github: <a href="http://github.com/Yuri-9">Yuri-9</a></p>
+            </div>
+         </div>
+      </section>
+      <section class="projects">
+         <h2>Projects</h2>
+         <div class="wrap-slider">
+            <div class="arrow xs-hide">
+               <div class="arrow__direction arrow__direction_prev">
+                  <i class="zmdi zmdi-caret-left"></i>
+               </div>
+               <div class="arrow__direction arrow__direction_next">
+                  <i class="zmdi zmdi-caret-right"></i>
+               </div>
+            </div>
+            <div class="slider">
+               <div class="slide slide_active">
+                  <div class="btn-swipe-description yellow">show description<i class="zmdi zmdi-chevron-down"></i>
+                  </div>
+                  <div class="slide__description yellow">
+                     <p class="slide__name">Fancy-weather</p>
+                     <ul class="slide__specification-list">
+                        <li class="slide__specification-item">Responsive</li>
+                        <li class="slide__specification-item">Webpack </li>
+                        <li class="slide__specification-item">Modules</li>
+                        <li class="slide__specification-item">Asynchronous requests</li>
+                     </ul>
+                     <a class="slide__btn" href="https://yuri-9.github.io/fancy-weather/">Project link<i class="zmdi zmdi-arrow-right"></i></a>
+                  </div>
+                  <div class="slide__img">
+                     <img src="images/fancy-weather.png" alt="fancy-weather">
+                  </div>
+                  <div class="slide__footer yellow">Swipe to see other</div>
+
+               </div>
+               <div class="slide">
+                  <div class="btn-swipe-description black">show description<i class="zmdi zmdi-chevron-down"></i>
+                  </div>
+                  <div class="slide__description black">
+                     <p class="slide__name">Piskel-clone</p>
+                     <ul class="slide__specification-list">
+                        <li class="slide__specification-item">Custom canvas size</li>
+                        <li class="slide__specification-item">Required pen size </li>
+                        <li class="slide__specification-item">Tools </li>
+                        <li class="slide__specification-item">Frame add, delete , drag & drop, copy</li>
+                        <li class="slide__specification-item">Keyboard shortcut</li>
+                        <li class="slide__specification-item">Export apng, gif</li>
+                        <li class="slide__specification-item">Ability to animate frames</li>
+
+                     </ul>
+                     <a class="slide__btn" href="https://yuri-9.github.io/piskel-clone/">Project link<i
+                             class="zmdi zmdi-arrow-right"></i></a>
+                  </div>
+                  <div class="slide__img">
+                     <img src="images/piskel-clone.png" alt="piskel-clone">
+                  </div>
+                  <div class="slide__footer black">Swipe to see other</div>
+               </div>
+            </div>
+         </div>
+         <div class="slider-footer">Slider and swiper</div>
+      </section>
+   </main>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
